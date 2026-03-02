@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|117388095|52525000|d88bb423-9512-44b1-a434-262cbd8c249a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|117959523|52477500|ab1fa49d-59af-4525-bacf-94a38590270a|d88bb423-9512-44b1-a434-262cbd8c249a",
-          ""
-        ],
-        [
-          "silk_overlap|136071428|67054819|77302b5a-6130-4a95-90e8-5dbbcd608616|b44cfafe-da45-4231-906f-ae03cbdc4514",
-          ""
-        ],
-        [
-          "track_dangling|120040000|56040000|4555a7cc-1879-42bf-a05a-599ddea89206|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -205,7 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.254
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -504,7 +487,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.508,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -521,11 +504,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "",
+      "netlist": "./",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "514final.step",
       "svg": "",
       "vrml": ""
     },
